@@ -37,7 +37,7 @@ public class Client {
                     bufferedWriter.newLine();
                     bufferedWriter.flush();
 
-                    System.out.println("Server" + bufferedReader.readLine());
+                    System.out.println("Server: " + bufferedReader.readLine());
 
                     if (message.equalsIgnoreCase("exit"))
                         break;
